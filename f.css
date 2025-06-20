@@ -3,6 +3,7 @@ html{
 h1{
  text-transform: uppercase;
     text-align: center;
+    text-shadow: 3px 3px 3px gray;
 } 
 
 
@@ -52,4 +53,11 @@ div{
 }
 #h{font-style: italic;
    text-transform: capitalize;
+}
+input:hover{
+    background-color: bisque;
+    color: chocolate;
+}
+button:focus{
+    background-color: rgba(243, 228, 24, 0.975);
 }
